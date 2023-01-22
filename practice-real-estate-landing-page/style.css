@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-image:url('estate-housing-background-images.jpg');
+} */
+
+img {
+    float: left;
+    width: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: darkred;
+    text-align: center;
+    background-color: gold;
+    font-family: "Times New Roman";
+}
+
+.h2 {
+    color: brown;
+    text-shadow: 2px 2px grey;
+    text-align: center;
+    font-family: georgia;
+}
+
+.h4 {
+    font-family: "Times New Roman";
+    color: floralwhite;
+    background-image: url(estate-housing2-images.jpg);
+    text-align: left;
+    width: fit-content;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.h5 {
+    text-align: center;
+    color: darkblue;
+}
+
+.a {
+    color: blueviolet;
+    font-family: Calibri;
+    text-align: left;
+}
+
+.lambo {
+    color: blue;
+    margin: 10px;
+    font-size: large;
+}
+
+
+.table {
+    border: 1px;
+    empty-cells: hide;
+}
+
+.don {
+    border: 1px;
+    empty-cells: hide;
+    justify-content: center;
+}
+
+.baba {
+    border: 5px;
+    empty-cells: hide;
+    padding: 10px;
+    text-align: center;
+    color: red;
+    background-color: honeydew;
+    justify-content: center;
+}
+
+.table {
+    border: 2px;
+    empty-cells: hide;
+    height: auto;
+    width: auto;
+}
+
+.jazzy {
+    border: 1px;
+    empty-cells: hide;
+    width: 10px;
+}
+
+.mavis {
+    border: 2px;
+    empty-cells: hide;
+    width: 10px;
+}
+
+.p {
+    color: darkgreen;
+    font-family: "Gill Sans MT";
+    text-align: center;
+}
+
+.nav {
+    background-color: azure;
+}
+
+.wiskey {
+    background-color: chocolate;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    text-align: left;
+    color: chartreuse;
+}
+
+.best {
+    color: red;
+    font-family: "Times New Roman";
+    text-align: left;
+    font-size: xx-large;
+
+}
+
+.max {
+    color: orangered brown;
+    padding: 20px;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+}
+
+.coinmax {
+    font-size: medium;
+    color: brown;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.jack {
+    justify-content: center;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+.ark1 {
+    border: 0;
+    font-size: large;
+    color: darkred;
+    padding: 20;
+    background-color: white;
+    font-family: "Times";
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.ark2 {
+    border: 0;
+    font-size: large;
+    color: darkred;
+    padding: 20;
+    background-color: white;
+    font-family: "Times";
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.robinson {
+    background-color: whitesmoke;
+    color: chocolate;
+    font-size: large;
+    font-family: "Times New Roman";
+    background-repeat: no-repeat;
+    width: fit-content
+}
+
+.seeker {
+    float: center;
+    width: 130px;
+    height: 55px;
+}
+
+.ali {
+    float: none;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.simbi {
+    float: none;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.bola {
+    float: none;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.bose {
+    float: none;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.pacific {
+    justify-content: center;
+}
+
+.clinton {
+    width: 130px;
+    height: 150px;
+}
+
+.titanic {
+    background-color: deepskyblue;
+    font-size: xx-large;
+    outline: 2px solid darkblue;
+    text-align: center;
+    color: navy;
+    border: 2px solid whitesmoke;
+}
+
+.jacobins {
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sugar {
+    text-align: center;
+    font-size: larger;
+    color: maroon
+}
+
+.crusor {
+    background-color: whitesmoke;
+    font-size: small;
+    text-align: center;
+    font-family: "Times New Roman";
+    color: chocolate;
+}
+
+.outfit {
+    background-color: coral;
+}
+
+.KELLY {
+    font-size: x-large;
+    color: blueviolet;
+    text-shadow: 2px 2px aqua;
+    background-color: yellow;
+    text-align: center;
+    border: 2px ridge red;
+}
+
+.tom {
+    justify-content: center;
+}
+
+.dik {
+    justify-content: center;
+}
+
+.harry {
+    justify-content: center;
+}
+
+.bamboo {
+    width: 170px;
+    height: 100px;
+    justify-content: left;
+}
+
+.jango {
+    background-color: goldenrod;
+}
+
+.fox {
+    background-color: powderblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tosh {
+    color: darkblue;
+    background-color: greenyellow;
+    font-style: oblique;
+    font-family: "Gill Sans MT";
+    text-align: center;
+}
+
+.lavarel {
+    font-size: large;
+    color: blue;
+    font-family: "Gill Sans";
+    text-align: center;
+    /* scrollamount: 30px; */
+}
+
+.power {
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+}
+
+.ponche {
+    text-align: center;
+}
+
+.casio {
+    background-color: cyan;
+}
+
+.stock {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 200px;
+
+}
+
+.flexing {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.torch {
+    text-size-adjust: 100;
+    color: darkblue;
+    font-family: "Times New Roman";
+    text-align: left;
+}
+
+.polo {
+    margin: 50px;
+    border: 5px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: skyblue;
+    text-align: center;
+}
+
+.harvic {
+    border: 5px solid white;
+    border-radius: 50px;
+    margin: 50px;
+    background-color: darkorange;
+    padding: 5px;
+    text-align: center;
+}
+
+.lollipop {
+    margin: 50px;
+    border: 5px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: hotpink;
+}
+
+.horizon {
+    justify-content: center;
+}
+
+.klack {
+    font-size: smaller;
+    text-align: center;
+    background-color: chartreuse;
+    color: navy;
+}
+
+.melly {
+    font-size: xx-large;
+    text-align: center;
+    background-color: chartreuse;
+    color: navy;
+}
+
+.zobo {
+    color: darkred;
+    text-shadow: 1px 1px wheat;
+}
+
+.konami {
+    text-align: center;
+    font-size: x-large;
+    color: gold;
+    text-shadow: 1px 1px brown;
+}
+
+.unkoyo {
+    text-align: center;
+    font-size: x-large;
+    color: gold;
+    text-shadow: 1px 1px brown;
+}
+
+.tincan {
+    background-color: dodgerblue;
+}
+
+.honeybee {
+    margin: 50px;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: darkgreen;
+    border: 5px solid white;
+}
+
+.smiley {
+    width: 50px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+.london {
+    margin: 50px;
+    border: 5px solid white;
+    padding: 5px;
+    display: flex;
+    background-color: darkcyan;
+    justify-content: center;
+    vertical-align: bottom;
+    border-radius: 100px;
+}
+
+.glasgow {
+    text-align: center;
+    margin: 50px;
+    border: 5px solid white;
+    /* padding: 5px; */
+    background-color: chocolate;
+    border-radius: 50px;
+    color: violet;
+    text-shadow: 1px 1px darkred;
+}
+
+.pegason {
+    text-align: center;
+}
+
+.artic {
+    text-align: center;
+}
+
+.jelly {
+    color: floralwhite;
+    text-align: center;
+}
+
+.fish {
+    color: floralwhite;
+    text-align: center;
+}
+
+
+.dek {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dek .lokone {
+    background-color: crimson;
+    color: whitesmoke;
+    text-align: center;
+}
+/* .dek .lokone img{
+ text-align: center;
+} */
+.dek .lokone p {
+    font-size: xx-large;
+    font-family: "Times New Roman";
+}
+
+.dek .lokone img {
+    width: 70px;
+    height:70px;
+    text-align: center;
+}
+
+.dek .lokone button {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.dek .loktwo {
+    background-color: palevioletred;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.dek .loktwo p {
+    font-size: xx-large;
+    font-family: "Times New Roman";
+}
+
+.dek .loktwo img {
+    width: 70px;
+    height:70px;
+    text-align: center;
+}
+
+.dek .loktwo button {
+    background-color: brown;
+    color: white;
+}
+
+.dek .lokthree {
+    background-color: darkred;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.dek .lokthree p {
+    font-size: xx-large;
+    font-family: "Times New Roman";
+}
+
+.dek .lokthree img {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.dek .lokthree button {
+    background-color: cornflowerblue;
+    color: white;
+}
